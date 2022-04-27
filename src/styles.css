@@ -1,0 +1,49 @@
+body {
+        background: linear-gradient(
+          180.3deg,
+          rgb(221, 221, 221) 5.5%,
+          rgb(110, 136, 161) 90.2%
+        );
+        color: #430f58;
+        font-family: "Indie Flower", cursive;
+      }
+
+button {
+  background: white;
+  border: 1px solid #430f58;
+  border-radius: 30px;
+  cursor: pointer;
+  padding: 16px 20px;
+}
+
+button:hover {
+  border: 1px solid #430f58;
+  background: white;
+  color: #430f58;
+}
+
+.card-body {
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  border: 1px solid #430f58;
+}
+
+#celsius-temp {
+  font-size: 24px;
+}
+
+div {
+  display: block;
+}
+
+#fahrenheit-temp {
+  font-size: 24px;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+li {
+  list-style: none;
+}
+
